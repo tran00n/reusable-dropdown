@@ -1,0 +1,66 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    background-color: aliceblue;
+  }
+  
+h1 {
+    font: 20px "Century Gothic", Futura, sans-serif;
+}
+.ssd-wrapper {
+    width: 300px;
+    height: 100%;
+    font-size: 18px;
+    background-color: smoke-white;
+    position: relative;
+
+}
+
+.ssd-header {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    background-color: aliceblue;
+    text-align: left;
+    margin-left: 10px;
+    position: relative;
+    padding: 10px;
+
+}
+
+
+
+.ssd-list-item {
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+    background-color: aliceblue;
+    text-align: left;
+    margin-left: 10px;
+    position: relative;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    top: -20px;
+    left: 260px;
+    position: relative;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    right: 10px;
+    position: absolute;
+}
+
+.selectAll {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -30px;
+    left: 250px;
+    color: white;
+}
