@@ -60,23 +60,25 @@ fruit : [
  To utilize this data in the dropdown component, you can add another component to the render function in App.jsx, like this: 
 
 ''
-<SingleSelectDropdown 
+SingleSelectDropdown 
             header="Select Age" 
             list={this.state.age} 
             setSelected={this.setSelected}
             multipleSelect={false}
-/>
+
 ''
+, except with < > around it. 
 
 Ex. 
 ''
-<SingleSelectDropdown 
+SingleSelectDropdown 
             header="Select Fruit" 
             list={this.state.fruit} 
             setSelected={this.setSelected}
             multipleSelect={false}
-/>
+
 ''
+, except with < > around it. 
 
 To switch between a single selecting dropdown and a multi-selecting dropdown, set multipleSelect to true and setSelected to this.setMultipleSelected. 
 Ex. 
